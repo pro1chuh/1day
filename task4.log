@@ -1,0 +1,15 @@
+Script started on 2026-05-12 00:24:12+03:00 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="120" LINES="29"]
+[?2004h]0;pro1chuh@homepc: ~[01;32mpro1chuh@homepc[00m:[01;34m~[00m$ sleep 300 &
+[?2004l[1] 2375
+[?2004h]0;pro1chuh@homepc: ~[01;32mpro1chuh@homepc[00m:[01;34m~[00m$ pgrep sleep
+[?2004l2375
+[?2004h]0;pro1chuh@homepc: ~[01;32mpro1chuh@homepc[00m:[01;34m~[00m$ ps aux | grep sleep
+[?2004lpro1chuh    2375  0.0  0.0   3124  1664 pts/7    S    00:24   0:00 [01;31m[Ksleep[m[K 300
+pro1chuh    2378  0.0  0.0   4088  1920 pts/7    S+   00:24   0:00 grep --color=auto [01;31m[Ksleep[m[K
+[?2004h]0;pro1chuh@homepc: ~[01;32mpro1chuh@homepc[00m:[01;34m~[00m$ kill 2375
+[?2004l[?2004h]0;pro1chuh@homepc: ~[01;32mpro1chuh@homepc[00m:[01;34m~[00m$ pgrep sleep
+[?2004l[1]+  Terminated              sleep 300
+[?2004h]0;pro1chuh@homepc: ~[01;32mpro1chuh@homepc[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2026-05-12 00:25:04+03:00 [COMMAND_EXIT_CODE="1"]
